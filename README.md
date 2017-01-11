@@ -1,2 +1,2 @@
-# Computer-Vision-And-Machine-Learning
-OpenCV Scikit learn MATLAB .
+# Computer-Vision-Projects
+My journey through the annals of computer vision.
