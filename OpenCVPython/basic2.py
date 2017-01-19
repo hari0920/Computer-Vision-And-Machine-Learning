@@ -12,10 +12,9 @@ while (cap.isOpened()):
     #if ret == True:
         # apply operations
     frame = cv2.flip(frame, 0)
-        #frame = cv2.flip(gray,0)
     out.write(frame)
         #display the new frame
-    cv2.imshow('grayscale',frame)
+    cv2.imshow('upsidedown',frame)
     if cv2.waitKey(1) == ord('q'):
         break
     #else:
