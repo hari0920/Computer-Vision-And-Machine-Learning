@@ -1,0 +1,3 @@
+[submodule "Deep-Learning"]
+	path = Deep-Learning
+	url = https://github.com/hari0920/Deep-Learning.git
