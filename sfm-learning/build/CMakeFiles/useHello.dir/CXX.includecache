@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hariharan/Desktop/Projects/Book-Knowledge/Computer-Vision-And-Machine-Learning/sfm-learning/libHelloSLAM.h
+
+/home/hariharan/Desktop/Projects/Book-Knowledge/Computer-Vision-And-Machine-Learning/sfm-learning/useHello.cpp
+libHelloSLAM.h
+/home/hariharan/Desktop/Projects/Book-Knowledge/Computer-Vision-And-Machine-Learning/sfm-learning/libHelloSLAM.h
+

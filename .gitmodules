@@ -1,3 +1,7 @@
 [submodule "Deep-Learning"]
 	path = Deep-Learning
 	url = https://github.com/hari0920/Deep-Learning.git
+[submodule "slambook"]
+	path = slambook
+	url = https://github.com/hari0920/slambook.git
+
