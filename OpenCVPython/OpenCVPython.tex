@@ -1,0 +1,20 @@
+%This file covers all the neede functions of OpenCV
+This section covers some basic functions of OpenCV.
+\subsubsection{Read,Display,Save}
+How to display an image from a file, write to a file and display webcam video.
+\lstinputlisting[language=Python, firstline=1, lastline=4]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic1.py}
+These lines import the numpy and cv2 packages for us to work with. Matplotlib is an additional way of displaying images.
+\lstinputlisting[language=Python, firstline=5, lastline=6]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic1.py}
+$cv2.imread()$ is the function used for reading the image with the argument being the filepath.
+\lstinputlisting[language=Python, firstline=7, lastline=20]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic1.py}
+The code above creates a window with the specified name and the $cv2.imshow()$ function is used to display the image in the window.
+The $waitkey$ function is used to either exit the program on keypress of $esc$ or to save and then exit when $s$ is pressed. The $cv2.imwrite()$ function allows one to save the image in the working directory.
+There you have it! You now know how to read an image, display it in a window and save it to disk.
+\subsubsection{Webcam Stream}
+\lstinputlisting[language=Python]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic2.py}
+\subsubsection{Playback Video}
+\lstinputlisting[language=Python]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic3.py}
+\subsubsection{Drawing Lines and Text}
+\lstinputlisting[language=Python]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic4.py}
+\subsubsection{Using Callback Functions}
+\lstinputlisting[language=Python]{./Computer-Vision-And-Machine-Learning/OpenCVPython/basic5.py}
