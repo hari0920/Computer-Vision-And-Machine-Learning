@@ -4,4 +4,6 @@
 [submodule "slambook"]
 	path = slambook
 	url = https://github.com/hari0920/slambook.git
-
+[submodule "BikeClassifier"]
+	path= Nascent Tech CV Job/BikeClassifier
+	url = https://github.com/hari0920/BikeClassifier
