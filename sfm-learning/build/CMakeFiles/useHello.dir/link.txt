@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/useHello.dir/useHello.cpp.o  -o useHello -rdynamic libhello_shared.so -Wl,-rpath,/home/hariharan/Desktop/Projects/Book-Knowledge/Computer-Vision-And-Machine-Learning/sfm-learning/build 
